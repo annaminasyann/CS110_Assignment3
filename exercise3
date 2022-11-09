@@ -1,0 +1,9 @@
+let n1 = 4;
+let n2 = 3;
+let n = 1;
+let result = 0;
+while (n <= n1){
+    result = result + n2;
+    n++;
+}
+console.log(result);
