@@ -1,0 +1,13 @@
+
+let totalLines = 5;
+let currentLine = 1;
+let text = ' ';
+let index = 0;
+while (index < totalLines) {
+    text = text + '+';
+    index++;
+}
+while(currentLine <= totalLines){
+    console.log(text);
+    currentLine++;
+}
