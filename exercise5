@@ -1,13 +1,14 @@
 let n = 9;
 let r = '';
 let result = '';
-let i = r.length - 1;
+
 
 while(n > 0){
 r = r + n % 2;
 n = Math.floor(n / 2);
 }
 
+let i = r.length - 1;
 while (i >= 0) {
     result = result +r[i];
     i--;
